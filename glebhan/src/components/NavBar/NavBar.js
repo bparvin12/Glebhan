@@ -8,15 +8,18 @@ class Navigation extends Component {
 
     render() {
         return (
-            <Navbar variant="dark" className="NavBarBackground" expand="sm" fixed="top">
+            <Navbar variant="dark" className="NavBarBackground navbar-collapse" expand="sm" fixed="top">
                 <Navbar.Brand href="/">Glebhan</Navbar.Brand>
-                <Nav className="mr-auto Words">
-                    <Nav.Link href="/">Our Wedding</Nav.Link>
-                    <Nav.Link href="guestaccommodations">Guest Accommodations</Nav.Link>
-                    <Nav.Link href="photos">Photos</Nav.Link>
-                    <Nav.Link href="registry">Registry</Nav.Link>
-                    <Nav.Link href="rsvp">RSVP</Nav.Link>
-                </Nav>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="mr-auto Words">
+                        <Nav.Link href="/">Our Wedding</Nav.Link>
+                        <Nav.Link href="guestaccommodations">Guest Accommodations</Nav.Link>
+                        <Nav.Link href="photos">Photos</Nav.Link>
+                        <Nav.Link href="registry">Registry</Nav.Link>
+                        <Nav.Link href="rsvp">RSVP</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Navbar>
         )
     }

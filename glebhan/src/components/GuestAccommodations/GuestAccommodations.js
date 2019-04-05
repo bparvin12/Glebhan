@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button'
 
 import courtyardMarriot from "../../pictures/courtyard.jpg"
 import Homewood from "../../pictures/Homewood.jpg"
+import Hampton from "../../pictures/hampton.jpg"
+
 import "./GuestAccommodations.css"
 
 class GuestAccommodations extends Component {
@@ -49,7 +51,7 @@ class GuestAccommodations extends Component {
                     </Card>
 
                     <Card bg="light">
-                        <Card.Img className="cardImage" variant="top" src="holder.js/100px160" />
+                        <Card.Img className="cardImage" variant="top" src={Hampton} />
                         <Card.Body>
                             <Card.Title className="cardTitle">Hampton Inn & Suites By Hilton</Card.Title>
                             <Card.Text className="cardText">
@@ -59,7 +61,7 @@ class GuestAccommodations extends Component {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button className="cardButton" variant="secondary" target="blank" href="">Visit Website</Button>
+                            <Button className="cardButton" variant="secondary" target="blank" href="https://hamptoninn3.hilton.com/en/hotels/california/hampton-inn-and-suites-san-diego-airport-liberty-station-SANLBHX/index.html">Visit Website</Button>
                         </Card.Footer>
                     </Card>
                 </CardDeck>
