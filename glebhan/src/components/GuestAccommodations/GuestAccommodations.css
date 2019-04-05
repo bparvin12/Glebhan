@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+    /* color: white */
+}
+
+.header {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cardTitle {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.cardText {
+    font-family: 'Montserrat', sans-serif;
+    height: 75px;
+}
+
+.cardButton {
+    background-color: #77815c
+}
+
+.cardImage {
+    height: 250px;
+}

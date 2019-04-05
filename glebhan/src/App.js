@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Navigation from "./components/NavBar/index.js";
 import Home from "./components/Home";
+import GuestAccommodations from "./components/GuestAccommodations"
 
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
         <Navigation />
           <Switch>
             <Route exact path="/" component={Home} />
-            {/* <Route exact path="guestaccomodations" component={GuestAccomodations} /> */}
+            <Route exact path="/guestaccommodations" component={GuestAccommodations} />
           </Switch>
       </Router>
 
