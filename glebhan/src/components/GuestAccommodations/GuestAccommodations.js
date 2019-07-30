@@ -13,7 +13,7 @@ import "./GuestAccommodations.css"
 class GuestAccommodations extends Component {
     render() {
         return (
-            <Container>
+            <Container className='guestAccommodations'>
                 <br />
                 <br />
                 <br />

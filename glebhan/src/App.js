@@ -6,6 +6,7 @@ import Navigation from "./components/NavBar/index.js";
 import Home from "./components/Home";
 import GuestAccommodations from "./components/GuestAccommodations"
 import Photos from "./components/Photos"
+import OurWedding from './components/OurWedding'
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <Navigation />
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path='/ourwedding' component={OurWedding} />
             <Route exact path="/guestaccommodations" component={GuestAccommodations} />
             <Route exact path="/photos" component={Photos} />
           </Switch>

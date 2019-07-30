@@ -5,31 +5,41 @@ import React, { Component } from 'react';
 // import Col from 'react-bootstrap/Col'
 import weddingImage from "../../pictures/wedding.jpg";
 import liberty from "../../pictures/liberty.jpg"
-import Carousel from 'react-bootstrap/Carousel'
+import { Carousel, Card } from 'react-bootstrap'
+import coverImage from '../../pictures/glebhanWeddingPhotos/Cover\ Photo_.jpg'
 import "./Home.css";
 
 class Home extends Component {
     render() {
+
         return (
             <div>
-                <Carousel>
+                <Carousel controls={false} indicators={false}>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src={weddingImage}
+                            src={coverImage}
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <div className="writing1">
-                                <h3>Glenn & Siobhan</h3>
-                            </div>
-                            <div className="writing2">
-                                <h5>May 2, 2020</h5>
-                                <h5>San Diego, CA</h5>
-                            </div>
+                            <Card className='cardHome'>
+                                <div className='writingDiv'>
+                                    <div className="writing1">
+                                        <h3>Glenn & Siobhan</h3>
+                                    </div>
+                                    <div className="writing2">
+                                        <h5>May 2, 2020</h5>
+                                        <h5>San Diego, CA</h5>
+                                    </div>
+                                </div>
+                            </Card>
+                        </Carousel.Caption>
+                        <Carousel.Caption className='countdown'>
+                        <div className="countdownTitle">Wedding Countdown</div>
+                        <div data-type="countdown" data-id="1344628" className="tickcounter"><a href="//www.tickcounter.com/countdown/1344601" title="My countdown">My countdown</a></div>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    {/* <Carousel.Item>
                         <img
                             className="d-block w-100"
                             src={liberty}
@@ -58,7 +68,7 @@ class Home extends Component {
                             <h3>Third slide label</h3>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                         </Carousel.Caption>
-                    </Carousel.Item>
+                    </Carousel.Item> */}
                 </Carousel>
             </div>
         )
