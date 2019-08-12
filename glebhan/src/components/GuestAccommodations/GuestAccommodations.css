@@ -1,6 +1,9 @@
 .header {
     color: #77815c;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5vw;
+    text-align: center;
+    /* font-weight: bold */
 }
 
 .cardTitle {
@@ -10,14 +13,14 @@
 
 .cardText {
     font-family: 'Montserrat', sans-serif;
-    height: 75px;
+    height: auto;
 }
 
 .cardButton {
-    background-color: #77815c
+    background-color: #77815c;
 }
 
-.cardImage {
+/* .cardImage {
     height: 250px;
-}
+} */
 

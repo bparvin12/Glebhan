@@ -5,14 +5,13 @@
 .writing1 {
     font-family: 'Great Vibes', cursive;
     color: #FFFAF0;
-
+    font-size: 3vw;
 }
 
 .writing2 {
     font-family: 'Montserrat', sans-serif;
-    /* color: #b784a7; */
     color: #FFFAF0;
- 
+    font-size: 2vw;
 }
 
 .cardHome {
@@ -26,14 +25,13 @@
     border: 0;
     text-align: center;
 }
-/* .coverImage {
-    height: 100%
-} */
 
 .countdownTitle {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Great Vibes', cursive;
     background-color: #77815c;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-size: 2.2vw;
+    padding-top: 7px;
 }
 
 .countdown {
@@ -52,11 +50,5 @@
 .carousel2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-
-    /* text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; */
 }
 
