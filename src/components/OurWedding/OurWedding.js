@@ -38,9 +38,8 @@ class OurWedding extends Component {
                         </Col>
                         <Col xs={5} className='imgColumnOurWedding'>
                             <div >
-                                <Image src={photo} className='imgOurWedding' fluid />
+                                <Image src={photo} className='imgOurWedding' />
                             </div>
-
                         </Col>
                     </Row>
 
