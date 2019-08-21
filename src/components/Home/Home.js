@@ -14,7 +14,7 @@ class Home extends Component {
 
         return (
             <div>
-                <Carousel controls={false} indicators={false}>
+                <Carousel controls={false} indicators={false} className='customCarousel'>
                     <Carousel.Item>
                         <img
                             className="d-block w-100 imageCover"
