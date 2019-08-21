@@ -1,6 +1,53 @@
+// when screen is smaller than 480px
 @media (max-width: 480px) { 
     .customCarousel {
         padding-top: 56px;
+    }
+    .displayable { display: none }
+    .cardHome {
+        width: 100%;
+    }
+    .countdown {
+        width: 100%;
+    }
+    .writing1 {
+        font-size: 10vw
+    }
+    .writing2 {
+        font-size: 8vw;
+    }
+    .countdownTitle {
+        font-size: 10vw;
+        color: #FFFAF0;
+        background-color: #77815c;
+        text-align: center;
+    }
+    .tickcounter {
+        font-size: 5vw;
+    }
+ }
+//when screen is larger than 480px
+@media screen and (min-width: 480px) {
+    .hideable { display: none }
+    .cardHome {
+        width: 30%;
+        margin-bottom: 10px; /* Added */
+        opacity: 0.8;
+    }
+    .countdown {
+        width: 20%;
+        top: 20%;
+        opacity: 0.6;
+        left: 74%;
+    }
+    .writing1 {
+        font-size: 3vw
+    }
+    .writing2 {
+        font-size: 2vw;
+    }
+    .countdownTitle {
+        font-size: 2.2vw;
     }
  }
 
@@ -11,22 +58,17 @@
 .writing1 {
     font-family: 'Great Vibes', cursive;
     color: #FFFAF0;
-    font-size: 3vw;
 }
 
 .writing2 {
     font-family: 'Montserrat', sans-serif;
     color: #FFFAF0;
-    font-size: 2vw;
 }
 
 .cardHome {
     margin: 0 auto; /* Added */
     float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-    width: 30%;
     background-color: #77815c;
-    opacity: 0.8;
     border-radius: 0;
     border: 0;
     text-align: center;
@@ -36,15 +78,7 @@
     font-family: 'Great Vibes', cursive;
     background-color: #77815c;
     /* font-weight: bold; */
-    font-size: 2.2vw;
     padding-top: 7px;
-}
-
-.countdown {
-    top: 20%;
-    width: 20%;
-    opacity: 0.6;
-    left: 74%;
 }
 
 .tickcounter {

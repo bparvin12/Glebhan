@@ -22,7 +22,7 @@ class Home extends Component {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <Card className='cardHome'>
+                            <Card className='cardHome displayable'>
                                 <div className='writingDiv'>
                                     <div className="writing1">
                                         Glenn & Siobhan
@@ -34,12 +34,28 @@ class Home extends Component {
                                 </div>
                             </Card>
                         </Carousel.Caption>
-                        <Carousel.Caption className='countdown'>
-                        <div className="countdownTitle">Wedding Countdown</div>
-                        <div data-type="countdown" data-id="1344628" className="tickcounter"><a href="//www.tickcounter.com/countdown/1344601" title="My countdown">My countdown</a></div>
+                        <Carousel.Caption className='countdown displayable'>
+                            <div className="countdownTitle">Wedding Countdown</div>
+                            <div data-type="countdown" data-id="1344628" className="tickcounter"><a href="//www.tickcounter.com/countdown/1344601" title="My countdown">My countdown</a></div>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
+                {/* hidden portions when screen is larger than 480px */}
+                <Card className='cardHome hideable'>
+                    <div className='writingDiv'>
+                        <div className="writing1">
+                            Glenn & Siobhan
+                                    </div>
+                        <div className="writing2">
+                            <div>May 2, 2020</div>
+                            <div>San Diego, CA</div>
+                        </div>
+                    </div>
+                </Card>
+                <div className='countdown hideable'>
+                    <div className="countdownTitle">Wedding Countdown</div>
+                    <div data-type="countdown" data-id="1344628" className="tickcounter"><a href="//www.tickcounter.com/countdown/1344601" title="My countdown">My countdown</a></div>
+                </div>
             </div>
         )
     }
