@@ -5,7 +5,7 @@ import { Card, CardDeck, Container, Button } from 'react-bootstrap'
 // import Homewood from "../../pictures/Homewood.jpg"
 // import Hampton from "../../pictures/hampton.jpg"
 
-import "./GuestAccommodations.css"
+import "./GuestAccommodations.scss"
 
 class GuestAccommodations extends Component {
     render() {

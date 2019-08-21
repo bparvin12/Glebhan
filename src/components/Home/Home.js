@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 // import liberty from "../../pictures/liberty.jpg"
 import { Carousel, Card } from 'react-bootstrap'
 import coverImage from '../../pictures/glebhanWeddingPhotos/Cover Photo_.jpg'
-import "./Home.css";
+import "./Home.scss";
 
 class Home extends Component {
     render() {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Nav, Navbar } from "react-bootstrap";
 
 
-import "./NavBar.css"
+import "./NavBar.scss"
 
 class Navigation extends Component {
 
