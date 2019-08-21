@@ -25,7 +25,7 @@ class Home extends Component {
                             <Card className='cardHome displayable'>
                                 <div className='writingDiv'>
                                     <div className="writing1">
-                                        Glenn & Siobhan
+                                        Siobhan & Glenn
                                     </div>
                                     <div className="writing2">
                                         <div>May 2, 2020</div>
@@ -44,7 +44,7 @@ class Home extends Component {
                 <Card className='cardHome hideable'>
                     <div className='writingDiv'>
                         <div className="writing1">
-                            Glenn & Siobhan
+                            Siobhan & Glenn
                                     </div>
                         <div className="writing2">
                             <div>May 2, 2020</div>
