@@ -23,7 +23,7 @@ import pic18 from '../../pictures/glebhanWeddingPhotos/pic18.jpg'
 import pic19 from '../../pictures/glebhanWeddingPhotos/Cover Photo_.jpg'
 import pic20 from '../../pictures/glebhanWeddingPhotos/Cover photo2_.jpg'
 
-import "./photos.css"
+import "./photos.scss"
 
 class Photos extends Component {
 
