@@ -19,7 +19,7 @@ class OurWedding extends Component {
                                 <div className='alertDetailsOurWedding'>
                                     <div className='headingOurWedding'>Saturday May 02, 2020</div>
                                     {/* Five O'Clock In The Evening */}
-                                </div><br></br>
+                                </div><br></br><br></br>
                                 {/* </Alert> */}
                                 {/* <Alert className='alertDetailsOurWedding'> */}
                                 <div className='alertDetailsOurWedding'>
