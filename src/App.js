@@ -7,7 +7,7 @@ import Home from "./components/Home";
 import GuestAccommodations from "./components/GuestAccommodations"
 import Photos from "./components/Photos"
 import OurWedding from './components/OurWedding'
-
+import Registry from './components/Registry'
 
 class App extends Component {
   render() {
@@ -19,6 +19,7 @@ class App extends Component {
             <Route exact path='/ourwedding' component={OurWedding} />
             <Route exact path="/photos" component={Photos} />
             <Route exact path="/guestaccommodations" component={GuestAccommodations} />
+            <Route exact path="/registry" component={Registry} />
           </Switch>
       </Router>
 
