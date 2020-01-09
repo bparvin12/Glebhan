@@ -14,10 +14,10 @@ class Navigation extends Component {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto Words">
                         <Nav.Link href="/ourwedding">Our Wedding</Nav.Link>
-                        <Nav.Link href="photos">Photos</Nav.Link>
-                        <Nav.Link href="guestaccommodations">Guest Accommodations</Nav.Link>
-                        {/* <Nav.Link href="registry">Registry</Nav.Link>
-                        <Nav.Link href="rsvp">RSVP</Nav.Link> */}
+                        <Nav.Link href="/photos">Photos</Nav.Link>
+                        <Nav.Link href="/guestaccommodations">Guest Accommodations</Nav.Link>
+                        <Nav.Link href="/registry">Registry</Nav.Link>
+                        {/* <Nav.Link href="rsvp">RSVP</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
