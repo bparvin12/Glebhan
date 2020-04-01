@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f2426de9d762dc6cf8ee",
-    "url": "/static/css/main.b70f0b9f.chunk.css"
+    "revision": "868f1d6fa24013d4e8d3",
+    "url": "/static/css/main.82571740.chunk.css"
   },
   {
-    "revision": "f2426de9d762dc6cf8ee",
-    "url": "/static/js/main.6b57d171.chunk.js"
+    "revision": "868f1d6fa24013d4e8d3",
+    "url": "/static/js/main.0ea0f928.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/static/media/bedbathandbeyond.3ac9d3c3.png"
   },
   {
-    "revision": "54d90604838b092fdb64a153eb19da6b",
+    "revision": "9999e249592024b08ff0887f39809a9a",
     "url": "/index.html"
   }
 ];
