@@ -21,30 +21,30 @@ class GuestAccommodations extends Component {
                     <Card bg="light">
                         {/* <Card.Img className="cardImage" variant="top" src={courtyardMarriot} fluid/> */}
                         <Card.Body>
-                            <Card.Title className="cardTitle">Courtyard Marriot</Card.Title>
+                            <Card.Title className="cardTitle">Residence Inn by Marriott San Diego Downtown/Bayfront</Card.Title>
                             <Card.Text className="cardText">
-                                2592 Laning Rd <br />
-                                San Diego, CA 92106 <br />
-                                (619) 221-1900
+                                900 Bayfornt Ct.<br />
+                                San Diego, CA 92101 <br />
+                                (619) 831-0225
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button className="cardButton" variant="secondary" target="blank" href="https://www.marriott.com/hotels/travel/sanal-courtyard-san-diego-airport-liberty-station">Visit Website</Button>
+                            <Button className="cardButton" variant="secondary" target="blank" href="https://www.marriott.com/hotels/travel/sanrh-residence-inn-san-diego-downtown-bayfront/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Visit Website</Button>
                         </Card.Footer>
                     </Card>
 
                     <Card bg="light">
                         {/* <Card.Img className="cardImage" variant="top" src={Homewood} /> */}
                         <Card.Body>
-                            <Card.Title className="cardTitle">Homewood Suites By Hilton</Card.Title>
+                            <Card.Title className="cardTitle">SpringHill Suites by Marriott San Diego Downtown/Bayfront</Card.Title>
                             <Card.Text className="cardText">
-                                2576 Laning Rd <br />
-                                San Diego, CA 92106 <br />
-                                (619) 222-0500
+                                900 Bayfront Ct. <br />
+                                San Diego, CA 92101 <br />
+                                (619) 831-0224
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button className="cardButton" variant="secondary" target="blank" href="https://homewoodsuites3.hilton.com/en/hotels/california/homewood-suites-by-hilton-san-diego-airport-liberty-station-SANLSHW/index.html">Visit Website</Button>
+                            <Button className="cardButton" variant="secondary" target="blank" href="https://www.marriott.com/hotels/travel/sandh-springhill-suites-san-diego-downtown-bayfront/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Visit Website</Button>
                         </Card.Footer>
                     </Card>
                 </CardDeck>
@@ -53,30 +53,30 @@ class GuestAccommodations extends Component {
                     <Card bg="light">
                         {/* <Card.Img className="cardImage" variant="top" src={Hampton} /> */}
                         <Card.Body>
-                            <Card.Title className="cardTitle">Hampton Inn & Suites By Hilton</Card.Title>
+                            <Card.Title className="cardTitle">InterContinental San Diego</Card.Title>
                             <Card.Text className="cardText">
-                                2211 Lee C <br />
+                                901 Bayfront Ct<br />
                                 San Diego 92101 <br />
-                                (619) 222-0500
+                                (619) 501-9400
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button className="cardButton" variant="secondary" target="blank" href="https://hamptoninn3.hilton.com/en/hotels/california/hampton-inn-and-suites-san-diego-airport-liberty-station-SANLBHX/index.html">Visit Website</Button>
+                            <Button className="cardButton" variant="secondary" target="blank" href="https://www.ihg.com/intercontinental/hotels/us/en/san-diego/sanhb/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-US-_-SANHB">Visit Website</Button>
                         </Card.Footer>
                     </Card>
 
                     <Card bg="light">
                         {/* <Card.Img className="cardImage" variant="top" src={Hampton} /> */}
                         <Card.Body>
-                            <Card.Title className="cardTitle">TownePlace Suites San Diego Airport/Liberty Station</Card.Title>
+                            <Card.Title className="cardTitle">Wyndham San Diego Bayside</Card.Title>
                             <Card.Text className="cardText">
-                                2311 Lee Court<br />
+                                1355 North Harbor Drive<br />
                                 San Diego 92101<br />
-                                (619) 881-4100
+                                (619) 232-3861
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button className="cardButton" variant="secondary" target="blank" href="https://www.marriott.com/hotels/travel/santa-towneplace-suites-san-diego-airport-liberty-station/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Visit Website</Button>
+                            <Button className="cardButton" variant="secondary" target="blank" href="https://www.wyndhamhotels.com/wyndham/san-diego-california/wyndham-san-diego-bayside/overview?CID=LC:HR::GGL:RIO:National:47150&iata=00093796">Visit Website</Button>
                         </Card.Footer>
                     </Card>
                 </CardDeck>

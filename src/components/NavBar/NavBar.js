@@ -17,7 +17,7 @@ class Navigation extends Component {
                         <Nav.Link href="/photos">Photos</Nav.Link>
                         <Nav.Link href="/guestaccommodations">Guest Accommodations</Nav.Link>
                         <Nav.Link href="/registry">Registry</Nav.Link>
-                        {/* <Nav.Link href="rsvp">RSVP</Nav.Link> */}
+                        <Nav.Link href="rsvp">RSVP</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

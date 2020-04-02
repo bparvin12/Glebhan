@@ -23,7 +23,7 @@ class OurWedding extends Component {
                                     <div className="headingOurWedding">
                                         Friday August 28, 2020
                                     </div>
-                                    {/* Five O'Clock In The Evening */}
+                                    Five O'Clock In The Evening
                                 </div>
                                 <br></br>
                                 <br></br>
@@ -34,12 +34,12 @@ class OurWedding extends Component {
                                         Ceremony and Reception
                                     </div>
                                     {/* place */}
-                                    <div>New Venue Coming Soon!</div>
+                                    <div>The Lane</div>
                                     {/* address */}
-                                    <div></div>
-                                    <div>San Diego, CA</div>
+                                    <div>900 Bayfront Ct.</div>
+                                    <div>San Diego, CA 92101</div>
                                     {/* phone number */}
-                                    <div></div>
+                                    <div>619-203-5610</div>
                                     {/* </Alert> */}
                                 </div>
                                 <br></br>

@@ -33,6 +33,7 @@ class Home extends Component {
                                     <div className="writing2">
                                         <div>August 28, 2020</div>
                                         <div>San Diego, CA</div>
+                                        <div>5pm - Midnight</div>
                                     </div>
                                 </div>
                             </Card>
@@ -43,11 +44,11 @@ class Home extends Component {
                             </div>
                             <div
                                 data-type="countdown"
-                                data-id="1879946"
+                                data-id="1882091"
                                 className="tickcounter"
                             >
                                 <a
-                                    href="//www.tickcounter.com/countdown/1879946/my-countdown"
+                                    href="//www.tickcounter.com/countdown/1882091/my-countdown"
                                     title="My countdown"
                                 >
                                     My countdown
@@ -65,7 +66,7 @@ class Home extends Component {
                                 className="tickcounter"
                             >
                                 <a
-                                    href="//www.tickcounter.com/countdown/1879946/my-countdown"
+                                    href="//www.tickcounter.com/countdown/1882091/my-countdown"
                                     title="My countdown"
                                 >
                                     My countdown
@@ -81,6 +82,7 @@ class Home extends Component {
                         <div className="writing2">
                             <div>August 28, 2020</div>
                             <div>San Diego, CA</div>
+                            <div>5pm - Midnight</div>
                         </div>
                     </div>
                 </Card>
@@ -88,11 +90,11 @@ class Home extends Component {
                     <div className="countdownTitle">Wedding Countdown</div>
                     <div
                         data-type="countdown"
-                        data-id="1879946"
+                        data-id="1882091"
                         className="tickcounter"
                     >
                         <a
-                            href="//www.tickcounter.com/countdown/1879946/my-countdown"
+                            href="//www.tickcounter.com/countdown/1882091/my-countdown"
                             title="My countdown"
                         >
                             My countdown
