@@ -6,13 +6,13 @@ import React, { Component } from "react";
 // import weddingImage from "../../pictures/wedding.jpg";
 // import liberty from "../../pictures/liberty.jpg"
 import { Carousel, Card } from "react-bootstrap";
-import coverImage from "../../pictures/glebhanWeddingPhotos/Cover Photo_.jpg";
+import coverImage from "../../pictures/glebhanWeddingPhotos/pic19.jpg";
 import "./Home.scss";
 
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className="homePageSection">
                 <Carousel
                     controls={false}
                     indicators={false}
@@ -20,7 +20,7 @@ class Home extends Component {
                 >
                     <Carousel.Item>
                         <img
-                            className="d-block w-100 imageCover"
+                            className="imageCover"
                             src={coverImage}
                             alt="First slide"
                         />
