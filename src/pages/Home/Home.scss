@@ -51,44 +51,48 @@
     }
  }
 
-.writingDiv{
-    margin: 10px;
-    text-align: center;
-}
-.writing1 {
-    font-family: 'Great Vibes', cursive;
-    color: #FFFAF0;
-}
+ .homeSection {
+    // background-color: #77815c;
+    .writingDiv{
+        margin: 10px;
+        text-align: center;
+    }
+    .writing1 {
+        font-family: 'Great Vibes', cursive;
+        color: #FFFAF0;
+    }
+    
+    .writing2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #FFFAF0;
+    }
+    
+    .cardHome {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        background-color: #77815c;
+        border-radius: 0;
+        border: 0;
+        text-align: center;
+    }
+    
+    .countdownTitle {
+        font-family: 'Great Vibes', cursive;
+        background-color: #77815c;
+        /* font-weight: bold; */
+        padding-top: 7px;
+    }
+    
+    .tickcounter {
+        width: 100%; 
+        position: relative; 
+        padding-bottom: 25%;
+    }
+    
+    .carousel2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+ }
 
-.writing2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #FFFAF0;
-}
-
-.cardHome {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    background-color: #77815c;
-    border-radius: 0;
-    border: 0;
-    text-align: center;
-}
-
-.countdownTitle {
-    font-family: 'Great Vibes', cursive;
-    background-color: #77815c;
-    /* font-weight: bold; */
-    padding-top: 7px;
-}
-
-.tickcounter {
-    width: 100%; 
-    position: relative; 
-    padding-bottom: 25%;
-}
-
-.carousel2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
 

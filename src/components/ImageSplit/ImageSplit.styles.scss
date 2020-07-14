@@ -1,0 +1,125 @@
+.ImageSplitSection {
+    max-height: 100vh;
+    .sectionRow {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+      align-items: center;
+      .videoRenderSettings {
+        overflow: hidden;
+        .bg-split-video {
+          margin: 0 auto;
+          display: block;
+        }
+      }
+    }
+    @media (max-width: 767.98px) {
+      .sectionRow {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+        align-items: center;
+      }
+    }
+    .imageColumn {
+      img {
+        object-fit: cover;
+        width: 50vw;
+        height: 50vw;
+      }
+    }
+    .rightMedia {
+      text-align: right;
+      hr.brand-hr {
+        margin-right: 0;
+      }
+    }
+    .leftMedia {
+      text-align: left;
+      hr.brand-hr {
+        margin-left: 0;
+      }
+    }
+    .writingSplit {
+      display: grid;
+      // grid-template-columns: 1fr;
+      place-items: center center;
+      .innerWritingSplit {
+        padding: 20px 5rem;
+        white-space: pre-line;
+      }
+    }
+    hr.brand-hr {
+      margin-top: 0.5rem;
+      border: 0;
+      border-top: 1px solid var(--metaGreen);
+      width: 10vw;
+    }
+    span.category-title {
+      color: var(--secondary);
+      text-transform: uppercase;
+      font-size: 0.85em;
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+    h2 {
+      padding: 20px 0;
+    }
+    @media (max-width: 767.98px) {
+      .writingSplit {
+        display: grid;
+        // grid-template-columns: 1fr;
+        order: 2;
+        text-align: center;
+        place-items: center center;
+        .innerWritingSplit {
+          padding: 20px 4rem;
+          white-space: pre-line;
+        }
+      }
+      .rightMedia {
+        hr.brand-hr {
+          margin-right: auto;
+        }
+      }
+      .leftMedia {
+        hr.brand-hr {
+          margin-left: auto;
+        }
+      }
+      hr.brand-hr {
+        border: 0;
+        border-top: 2px solid var(--metaGreen);
+        width: 10vw;
+        margin: 1em auto;
+      }
+      .imageColumn {
+        order: 1;
+        img {
+          object-fit: cover;
+          width: 100vw;
+          height: 60vw;
+        }
+      }
+    }
+    .video-format-display {
+      .sectionRow {
+        background-color: var(--primary);
+        .writingSplit {
+          color: var(--white);
+        }
+      }
+    }
+    .infoTextImage {
+      .imageColumn {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      // .writingSplit {
+      //   .item {
+      //     justify-self: right;
+      //   }
+      // }
+    }
+  }
+  

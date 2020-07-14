@@ -1,20 +1,25 @@
 import React, { Component } from 'react';
-// import Container from 'react-bootstrap/Container';
-// import Image from 'react-bootstrap/Image';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col'
-// import weddingImage from "../../pictures/wedding.jpg";
-// import liberty from "../../pictures/liberty.jpg"
 import { Carousel, Card } from 'react-bootstrap'
+// import FullWidthImage from '../../components/FullWidthImage';
+import ImageSplit from '../../components/ImageSplit';
 import coverImage from '../../pictures/glebhanWeddingPhotos/Cover Photo_.jpg'
 import "./Home.scss";
+
 
 class Home extends Component {
     render() {
 
         return (
-            <div>
-                <Carousel controls={false} indicators={false} className='customCarousel'>
+            <div className="homeSection">
+                <ImageSplit
+                    imageUrl={coverImage}
+                    splitConfiguration="left"
+                    categoryTitle="Wedding Countdown"
+                    headline="Glenn and Siobhan"
+                    buttonUrl='/our-wedding'
+                    buttonText="Our Wedding"
+                />
+                {/* <Carousel controls={false} indicators={false} className='customCarousel'>
                     <Carousel.Item>
                         <img
                             className="d-block w-100 imageCover"
@@ -36,12 +41,12 @@ class Home extends Component {
                         </Carousel.Caption>
                         <Carousel.Caption className='countdown displayable'>
                             <div className="countdownTitle">Wedding Countdown</div>
-                            <div data-type="countdown" data-id="1344628" className="tickcounter"><a href="//www.tickcounter.com/countdown/1344601" title="My countdown">My countdown</a></div>
+                            <div data-type="countdown" data-id="2081112" className="tickcounter"><a href="//www.tickcounter.com/countdown/2081112" title="My countdown">My countdown</a></div>
                         </Carousel.Caption>
                     </Carousel.Item>
-                </Carousel>
+                </Carousel> */}
                 {/* hidden portions when screen is larger than 480px */}
-                <Card className='cardHome hideable'>
+                {/* <Card className='cardHome hideable'>
                     <div className='writingDiv'>
                         <div className="writing1">
                             Siobhan & Glenn
@@ -54,8 +59,8 @@ class Home extends Component {
                 </Card>
                 <div className='countdown hideable'>
                     <div className="countdownTitle">Wedding Countdown</div>
-                    <div data-type="countdown" data-id="1344628" className="tickcounter"><a href="//www.tickcounter.com/countdown/1344601" title="My countdown">My countdown</a></div>
-                </div>
+                    <div data-type="countdown" data-id="2081112" className="tickcounter"><a href="//www.tickcounter.com/countdown/2081112" title="My countdown">My countdown</a></div>
+                </div> */}
             </div>
         )
     }
