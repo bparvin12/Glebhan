@@ -7,7 +7,7 @@ import "./OurWedding.scss"
 class OurWedding extends Component {
     render() {
         return (
-            <div>
+            <section className="ourWeddingSection">
                 <Card className='jumbo'>
                     <Row>
                         <Col xs={7}>
@@ -45,7 +45,7 @@ class OurWedding extends Component {
 
 
                 </Card>
-            </div>
+            </section>
         )
     }
 }

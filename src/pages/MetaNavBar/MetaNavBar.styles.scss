@@ -8,9 +8,9 @@
   }
   .navbar {
     font-family: 'Montserrat', sans-serif;
-    color: #fffaf0;
+    color: var(--metaWhite);
     .selected {
-      border-bottom: 1px solid var(--metaWhite);
+      border-bottom: 1px solid var(--metaGreen);
     }
     .nav-link {
       &:hover,
@@ -43,8 +43,8 @@
   text-decoration-color: var(--metaWhite);
 }
 #TopNavigation.is-scrolling a {
-  color: var(--dark);
-  text-decoration-color: var(--dark);
+  color: var(--metaGreen);
+  text-decoration-color: var(--metaGreen);
 }
 
 #TopNavigation.is-not-scrolling {
@@ -62,41 +62,14 @@
   transition-duration: 500ms;
 }
 #TopNavigation.is-scrolling a.navbar-brand {
-  font-size: 1.25em;
+  font-size: 2em;
   transition-duration: 500ms;
 }
 
-#requestAppointmentBtn {
-  margin: 0.25em 1em !important;
-  padding: 0.25em 1em !important;
-}
-#requestAppointmentBtn.btn-outline-secondary {
-  // background-color: var(--metaGreen);
-  border-color: var(--metaWhite);
-  color: var(--metaWhite);
-}
-#requestAppointmentBtn.btn-outline-secondary.is-scrolling {
-  // background-color: var(--metaGreen);
-  border-color: var(--metaGreen);
-  color: var(--metaGreen);
-}
-#requestAppointmentBtn.btn-outline-secondary:hover {
-  background-color: var(--metaGreen);
-  border-color: var(--metaGreen);
-}
-.is-scrolling button#requestAppointmentBtn {
-  border-color: var(--dark);
-  color: var(--dark);
-}
-
+// smaller than 992px
 @media (max-width: 992px) {
   #TopNavigation.is-scrolling a.navbar-brand {
-    color: var(--dark);
-    // background-color: var(--dark);
-    // opacity: 0.9
-    &:hover {
-      border-bottom: 1px solid var(--metaGreen);
-    }
+    color: var(--metaGreen);
   }
   #TopNavigation {
     opacity: 0.9;
@@ -104,7 +77,7 @@
   }
   .navbar-collapse.collapsing,
   .navbar-collapse.show {
-    background-color: var(--dark);
+    background-color: var(--metaGreen);
     padding: 10px;
     text-align: center;
     opacity: 0.9;
@@ -133,11 +106,13 @@
     margin: 0 auto; /* This will center the border. */
     width: 25%;
   }
-  .nav-link:hover {
-    border-bottom: 1px solid var(--metaGreen);
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 25%;
+  .nav-link {
+    &:hover, &:focus, &:active {
+      border-bottom: 1px solid var(--metaWhite);
+      display: block; /* This will put the pseudo element on its own line. */
+      margin: 0 auto; /* This will center the border. */
+      width: 25%;
+    }
   }
   .is-scrolling button#requestAppointmentBtn {
     border-color: var(--metaWhite);

@@ -28,9 +28,9 @@ const ImageSplit = (props) => {
           : 'rightMedia item writingSplit'
       }>
       <div className='item innerWritingSplit'>
-        <span className='category-title'>{categoryTitle}</span>
+        <h2 className='category-title'>{categoryTitle}</h2>
         <hr className='brand-hr' />
-        <h2 className='item'>{headline}</h2>
+        <span className='item'>{headline}</span>
         <p className='item'>{body}</p>
         <div
           className='crafterHTML'

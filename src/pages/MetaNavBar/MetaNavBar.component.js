@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './MetaNavBar.styles.scss';
 
 const reducer = (state, nextState) => ({ ...state, ...nextState });
@@ -64,20 +64,26 @@ export default function MetaNavBar() {
 
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ml-auto'>
-            <li className='nav-item'>
-              <Link className='nav-link' to='/our-wedding'>
+            <li className='nav-item' data-toggle='collapse' data-target='#navbarSupportedContent'>
+              <NavLink
+                className='nav-link'
+                to='/our-wedding'>
                 Our Wedding
-              </Link>
+              </NavLink>
             </li>
-            <li className='nav-item'>
-              <Link className='nav-link' to='/photos'>
+            <li className='nav-item' data-toggle='collapse' data-target='#navbarSupportedContent'>
+              <NavLink
+                className='nav-link'
+                to='/photos'>
                 Photos
-              </Link>
+              </NavLink>
             </li>
-            <li className='nav-item'>
-              <Link className='nav-link' to='/guest-accommodations'>
+            <li className='nav-item' data-toggle='collapse' data-target='#navbarSupportedContent'>
+              <NavLink
+                className='nav-link'
+                to='/guest-accommodations'>
                 Guest Accommodations
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

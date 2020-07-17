@@ -1,5 +1,6 @@
 .ImageSplitSection {
     max-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
     .sectionRow {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
@@ -43,6 +44,7 @@
       // grid-template-columns: 1fr;
       place-items: center center;
       .innerWritingSplit {
+        // font-size: 0.85em;
         padding: 20px 5rem;
         white-space: pre-line;
       }
@@ -53,10 +55,11 @@
       border-top: 1px solid var(--metaGreen);
       width: 10vw;
     }
-    span.category-title {
-      color: var(--secondary);
+    h2.category-title {
+      color: var(--metaGreen);
+      font-family: 'Montserrat', sans-serif;
       text-transform: uppercase;
-      font-size: 0.85em;
+      // font-size: 0.85em;
       font-weight: 400;
       letter-spacing: 1px;
     }
