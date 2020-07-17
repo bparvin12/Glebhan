@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, Image, Row, Col } from 'react-bootstrap'
+import ImageSplit from '../../components/ImageSplit'
 import photo from '../../pictures/glebhanWeddingPhotos/Cover photo2_.jpg'
 
 import "./OurWedding.scss"
@@ -8,43 +9,30 @@ class OurWedding extends Component {
     render() {
         return (
             <section className="ourWeddingSection">
-                <Card className='jumbo'>
-                    <Row>
-                        <Col xs={7}>
-                            <div className="writingColumnOurWedding">
-                                {/* <Alert className='alertOurWedding'> */}
-                                <div className='alertOurWedding'>Save The Date</div><br></br>
-                                {/* </Alert> */}
-                                {/* <Alert className='alertDetailsOurWedding'> */}
-                                <div className='alertDetailsOurWedding'>
-                                    <div className='headingOurWedding'>Saturday May 02, 2020</div>
-                                    {/* Five O'Clock In The Evening */}
-                                </div><br></br><br></br>
-                                {/* </Alert> */}
-                                {/* <Alert className='alertDetailsOurWedding'> */}
-                                <div className='alertDetailsOurWedding'>
-                                    <div className='headingOurWedding'>Ceremony and Reception</div>
-                                    <div>Liberty Station - Building 177</div>
-                                    <div>2875 Dewey Rd</div>
-                                    <div>San Diego, CA 92106</div>
-                                    <div>(619) 203-5610</div>
-                                    {/* </Alert> */}
-                                </div><br></br>
-                                <div className='alertDetailsOurWedding'>
-                                    <div className='headingOurWedding'>Attire</div>
-                                    Semi-Formal
-                                </div>
+            <ImageSplit
+                    imageUrl={photo}
+                    splitConfiguration="right"
+                    categoryTitle={<span style={{fontFamily: "'Great Vibes', 'cursive'", fontWeight:"bold"}}>Save the Date</span>}
+                    headline={
+                        <div>
+                            <h4>Friday August 6<sup>th</sup>, 2021</h4>
+                            <br /><br />
+                            <div style={{textAlign: "center"}}>
+                                <h4 style={{color: "#77815c"}}>Ceremony and Reception</h4>
+                                <span>Liberty Station - Building 177</span><br />
+                                <span>2875 Dewey Rd</span><br />
+                                <span>San Diego, CA 92106</span><br />
+                                <span>(619) 203-5610</span><br /><br />
+                                <h4 style={{color: "#77815c"}}>Attire</h4>
+                                <span>Semi-Formal</span> 
                             </div>
-                        </Col>
-                        <Col xs={5} className='imgColumnOurWedding'>
-                            <div >
-                                <Image src={photo} className='imgOurWedding' />
-                            </div>
-                        </Col>
-                    </Row>
-
-
-                </Card>
+                            
+                        </div>
+                    }
+                    body={''}
+                    buttonUrl='/guest-accomodations'
+                    buttonText="Guest Accommodations"
+            />
             </section>
         )
     }

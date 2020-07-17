@@ -38,9 +38,15 @@ const ImageSplit = (props) => {
         />
       </div>
       <div className='item innerWritingSplit'>
-        <CustomButton>
-          <Link style={{ textDecoration: "inherit", color: "inherit"}} to={buttonUrl}>{buttonText}</Link>
-        </CustomButton>
+        {buttonText ? (
+          <CustomButton>
+            <Link
+              style={{ textDecoration: 'inherit', color: 'inherit' }}
+              to={buttonUrl}>
+              {buttonText}
+            </Link>
+          </CustomButton>
+        ) : null}
       </div>
     </div>
   );
