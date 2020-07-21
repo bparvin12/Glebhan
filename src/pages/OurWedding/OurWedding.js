@@ -18,10 +18,11 @@ class OurWedding extends Component {
                         <br /><br />
                         <div style={{textAlign: "center"}}>
                             <h4 style={{color: "#77815c"}}>Ceremony and Reception</h4>
-                            <span>Liberty Station - Building 177</span><br />
-                            <span>2875 Dewey Rd</span><br />
-                            <span>San Diego, CA 92106</span><br />
-                            <span>(619) 203-5610</span><br /><br />
+                            <span>The Lane</span><br />
+                            <span>900 Bayfront Ct.</span><br />
+                            <span>San Diego, CA 92101</span><br />
+                            <span>(619) 203-5610</span><br />
+                            <sub style={{fontSize:"10px"}}>SITTING ON THE HISTORIC LAND THAT HOUSED THE ORIGINAL PADRES STADIUM--LANE FIELD</sub><br /><br />
                             <h4 style={{color: "#77815c"}}>Attire</h4>
                             <span>Semi-Formal</span> 
                         </div>
