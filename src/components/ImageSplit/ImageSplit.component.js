@@ -31,7 +31,7 @@ const ImageSplit = (props) => {
         <h2 className='category-title'>{categoryTitle}</h2>
         <hr className='brand-hr' />
         <span className='item'>{headline}</span>
-        <p className='item'>{body}</p>
+        <div className='item'>{body}</div>
         <div
           className='crafterHTML'
           dangerouslySetInnerHTML={{ __html: bodyHTML_html_raw }}

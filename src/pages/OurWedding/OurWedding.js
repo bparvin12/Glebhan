@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Card, Image, Row, Col } from 'react-bootstrap'
 import ImageSplit from '../../components/ImageSplit'
 import photo from '../../pictures/glebhanWeddingPhotos/Cover photo2_.jpg'
 

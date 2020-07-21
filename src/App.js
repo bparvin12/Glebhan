@@ -9,7 +9,7 @@ import Photos from "./pages/Photos"
 import OurWedding from './pages/OurWedding'
 import MetaNavBar from './pages/MetaNavBar/MetaNavBar.component';
 import Registry from './pages/Registry'
-import RSVP from './pages/RSVP/rsvp';
+// import RSVP from './pages/RSVP/rsvp';
 
 class App extends Component {
   render() {
