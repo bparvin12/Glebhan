@@ -1,0 +1,69 @@
+.metaBlogCard {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  // margin-left: 15px;
+  // margin-right: 15px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  .lt-gridCard-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    // gap: 20px;
+    grid-template-areas:
+      'image'
+      'content';
+    padding: 1rem;
+    justify-items: center;
+    .content {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      justify-items: center;
+      // gap: 1px 1px;
+
+      grid-area: content;
+      //font-size: 1rem;
+      h4 {
+        word-break: keep-all;
+        padding-top: 10px;
+        color: var(--metaGreen);
+      }
+      .crafterHTML {
+        padding-bottom: 8px;
+      }
+    }
+
+    .image {
+      grid-area: image;
+      grid-template-rows: auto;
+      display: grid;
+      place-items: center;
+      .imgElement {
+        width: 300px
+      }
+      // .imgElement {
+      //   max-width: 250px;
+      // };
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 576px) {
+    .imgElement {
+      max-width: 250px;
+    }
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+  }
+}

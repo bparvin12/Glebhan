@@ -1,0 +1,60 @@
+.fullWidthImageSection {
+    .sectionRow {
+      display: grid;
+      grid-gap: 5px;
+      grid-template-columns: 1fr;
+      
+      .bg-image {
+        z-index: 0;
+        background-size: auto 100%;
+        background-repeat: repeat-x;
+        background-position: center;
+        height: 100vh;
+        margin: 0 auto;
+      }
+      .content-container {
+        z-index: 2;
+        width: 50%;
+        margin: 0 0 0 auto;
+        padding: 2em 4em;
+        .row-alignment {
+          display: grid;
+          padding: 1em;
+          border-radius: 5px;
+          background: rgba(238, 242, 245, 0.5); //rgba for the --light variable
+          hr.brand-hr {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 2px solid var(--info);
+            width: 10vw;
+            margin-left: 0;
+          }
+          span.category-title {
+            color: var(--primary);
+            text-transform: uppercase;
+            font-size: 0.7em;
+            font-weight: 900;
+            letter-spacing: 1px;
+          }
+        }
+      }
+  
+      @media (max-width: 600px) {
+        .content-container {
+          margin: 0;
+          width: 100%;
+        }
+        .bg-image {
+          min-height: 20vh;
+        }
+      }
+    }
+  
+    @media screen and (min-width: 1485px) {
+      .sectionRow {
+        min-height: 55vh;
+      }
+    }
+  }
+  

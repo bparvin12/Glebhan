@@ -1,0 +1,58 @@
+.custom-button {
+    min-width: 165px;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0.5rem 4rem;
+    font-weight: 400;
+    text-align: center;
+    width: auto;
+    letter-spacing: 0.5px;
+    background-color: var(--metaWhite);
+    color: var(--metaGreen);
+    border: 1px solid var(--metaGreen);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    &:empty {
+      display: none;
+    }
+  
+    &:hover {
+      background-color: var(--metaGreen);
+      color: var(--metaWhite);
+      border: 1px solid var(--metaGreen);
+    }
+  
+    &.google-sign-in {
+      background-color: #4285f4;
+      color: var(--metaWhite);
+      &:hover {
+        background-color: #357ae8;
+        border: none;
+      }
+    }
+  
+    &.inverted {
+      background-color: var(--metaGreen);
+      color: var(--metaWhite);
+      border: 1px solid var(--metaWhite);
+      &:hover {
+        background-color: var(--metaWhite);
+        color: var(--metaGreen);
+        border: 1px solid var(--metaGreen);
+      }
+    }
+    &.transparent {
+        background-color: transparent;
+        color: var(--metaWhite);
+        border: 1px solid var(--metaWhite);
+        &:hover {
+          background-color: var(--metaGreen);
+          color: var(--metaWhite);
+          border: 1px solid var(--metaGreen);
+        }
+      }
+  }
+  
