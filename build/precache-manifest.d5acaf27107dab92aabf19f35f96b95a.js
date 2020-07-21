@@ -1,31 +1,47 @@
 self.__precacheManifest = [
   {
-    "revision": "d87f4c6cdbade57a2822",
-    "url": "/static/css/main.ac7ca35f.chunk.css"
+    "revision": "bc8d3e1f67a4aa8b1b28",
+    "url": "/static/css/main.c08d3bb5.chunk.css"
   },
   {
-    "revision": "d87f4c6cdbade57a2822",
-    "url": "/static/js/main.e7704d1a.chunk.js"
+    "revision": "bc8d3e1f67a4aa8b1b28",
+    "url": "/static/js/main.c3514bf3.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "2c0e3b99c4c7dd6b03af",
+    "revision": "b91f922c370c67b40ed8",
     "url": "/static/css/2.169e0e4e.chunk.css"
   },
   {
-    "revision": "2c0e3b99c4c7dd6b03af",
-    "url": "/static/js/2.4ff34eee.chunk.js"
+    "revision": "b91f922c370c67b40ed8",
+    "url": "/static/js/2.7a67529d.chunk.js"
+  },
+  {
+    "revision": "3f9d0a42d4f92dfa69bd29d3d0c704c8",
+    "url": "/static/media/Cover Photo_.3f9d0a42.jpg"
   },
   {
     "revision": "a162fd9beae0e17c0a239bec7cadf27d",
     "url": "/static/media/Cover photo2_.a162fd9b.jpg"
   },
   {
-    "revision": "07192453641998a0f0baa893c7d269e7",
-    "url": "/static/media/pic19.07192453.jpg"
+    "revision": "a7675346eafaaaa183d1d82fb3af311c",
+    "url": "/static/media/courtyardMarriot.a7675346.png"
+  },
+  {
+    "revision": "87e7f0ea5a92a9fc005eef564f1f2df1",
+    "url": "/static/media/homewood.87e7f0ea.png"
+  },
+  {
+    "revision": "ecb94b24dcfc70597b51693b4c7b5291",
+    "url": "/static/media/hampton.ecb94b24.png"
+  },
+  {
+    "revision": "c8df7c1da5e3d668e81a6659fed40d59",
+    "url": "/static/media/marriot.c8df7c1d.png"
   },
   {
     "revision": "b6309a9c8da92001eaea793f7e7214e5",
@@ -100,10 +116,6 @@ self.__precacheManifest = [
     "url": "/static/media/pic18.aa0171cf.jpg"
   },
   {
-    "revision": "3f9d0a42d4f92dfa69bd29d3d0c704c8",
-    "url": "/static/media/Cover Photo_.3f9d0a42.jpg"
-  },
-  {
     "revision": "7d0435177f72f6bce286b53cec5c7bc4",
     "url": "/static/media/target.7d043517.jpg"
   },
@@ -112,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/bedbathandbeyond.3ac9d3c3.png"
   },
   {
-    "revision": "14df8b932a9cab7538e0515aaaccdd3c",
+    "revision": "e3bbc8cfe9a14a2978971c7f13110495",
     "url": "/index.html"
   }
 ];
