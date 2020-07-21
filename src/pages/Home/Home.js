@@ -3,7 +3,7 @@ import Countdown from 'react-countdown';
 // import { Carousel, Card } from 'react-bootstrap'
 // import FullWidthImage from '../../components/FullWidthImage';
 import ImageSplit from '../../components/ImageSplit';
-import coverImage from '../../pictures/glebhanWeddingPhotos/Cover Photo_.jpg'
+import coverPhoto from '../../pictures/glebhanWeddingPhotos/newCover.png';
 import "./Home.scss";
 
 
@@ -12,7 +12,7 @@ class Home extends Component {
         return (
             <div className="homeSection">
                 <ImageSplit
-                    imageUrl={coverImage}
+                    imageUrl={coverPhoto}
                     splitConfiguration="left"
                     categoryTitle="Siobhan & Glenn"
                     headline={
