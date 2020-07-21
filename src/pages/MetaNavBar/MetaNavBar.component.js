@@ -85,6 +85,20 @@ export default function MetaNavBar() {
                 Guest Accommodations
               </NavLink>
             </li>
+            <li className='nav-item' data-toggle='collapse' data-target='#navbarSupportedContent'>
+              <NavLink
+                className='nav-link'
+                to='/registry'>
+                Registry
+              </NavLink>
+            </li>
+            {/* <li className='nav-item' data-toggle='collapse' data-target='#navbarSupportedContent'>
+              <NavLink
+                className='nav-link'
+                to='/rsvp'>
+                RSVP
+              </NavLink>
+            </li> */}
           </ul>
         </div>
       </div>

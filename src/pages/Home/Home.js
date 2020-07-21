@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Countdown from 'react-countdown';
-import { Carousel, Card } from 'react-bootstrap'
+// import { Carousel, Card } from 'react-bootstrap'
 // import FullWidthImage from '../../components/FullWidthImage';
 import ImageSplit from '../../components/ImageSplit';
 import coverImage from '../../pictures/glebhanWeddingPhotos/Cover Photo_.jpg'
@@ -9,13 +9,12 @@ import "./Home.scss";
 
 class Home extends Component {
     render() {
-
         return (
             <div className="homeSection">
                 <ImageSplit
                     imageUrl={coverImage}
                     splitConfiguration="left"
-                    categoryTitle="Glenn & Siobhan"
+                    categoryTitle="Siobhan & Glenn"
                     headline={
                         <span>
                             August 6<sup>th</sup>, 2021 <span style={{fontSize: '25px'}}>&bull;</span> San Diego, CA
@@ -31,19 +30,20 @@ class Home extends Component {
                 {/* <Carousel controls={false} indicators={false} className='customCarousel'>
                     <Carousel.Item>
                         <img
-                            className="d-block w-100 imageCover"
+                            className="imageCover"
                             src={coverImage}
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <Card className='cardHome displayable'>
-                                <div className='writingDiv'>
+                            <Card className="cardHome displayable">
+                                <div className="writingDiv">
                                     <div className="writing1">
                                         Siobhan & Glenn
                                     </div>
                                     <div className="writing2">
-                                        <div>May 2, 2020</div>
+                                        <div>August 28, 2020</div>
                                         <div>San Diego, CA</div>
+                                        <div>5pm - Midnight</div>
                                     </div>
                                 </div>
                             </Card>
@@ -61,17 +61,18 @@ class Home extends Component {
                             Siobhan & Glenn
                                     </div>
                         <div className="writing2">
-                            <div>May 2, 2020</div>
+                            <div>August 28, 2020</div>
                             <div>San Diego, CA</div>
+                            <div>5pm - Midnight</div>
                         </div>
                     </div>
                 </Card>
-                <div className='countdown hideable'>
+                <div className="countdown hideable">
                     <div className="countdownTitle">Wedding Countdown</div>
                     <div data-type="countdown" data-id="2081112" className="tickcounter"><a href="//www.tickcounter.com/countdown/2081112" title="My countdown">My countdown</a></div>
                 </div> */}
             </div>
-        )
+        );
     }
 }
 

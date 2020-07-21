@@ -39,7 +39,7 @@ const HotelCard = ({
                 {buttonText}
               </CustomButton>
             ) : (
-              <CustomButton>
+              <CustomButton inverted>
                 <a
                   href={buttonLink}
                   rel="noreferrer noopener"

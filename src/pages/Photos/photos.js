@@ -29,88 +29,88 @@ class Photos extends Component {
 
     render() {
         return (
-            <Container>
+            <Container className="photosSection">
                 <br/>
                 <br/>
                 <br/>
                 <CardColumns>
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic1}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic2}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic3}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic4}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic5}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic6}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic7}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic8}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic9}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic10}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic11}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic12}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic13}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic14}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic15}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic16}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic17}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic18}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic19}/>
                     </Card>
 
-                    <Card>
+                    <Card className="photoCard">
                         <Card.Img variant="top" src={pic20}/>
                     </Card>
                 </CardColumns>
