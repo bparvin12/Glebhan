@@ -1,9 +1,9 @@
 import React from 'react';
 import HotelCard from './HotelCard';
-import CourtyardMarriot from '../../pictures/courtyardMarriot.png';
-import Homewood from '../../pictures/homewood.png';
-import Hampton from '../../pictures/hampton.png';
-import Marriot from '../../pictures/marriot.png';
+import Wyndham from '../../pictures/wyndham.png';
+import Bayfront from '../../pictures/bayfront.jpg';
+import ResidenceInn from '../../pictures/residenceinn.jpg';
+import Intercontinental from '../../pictures/intercontinental.jpeg';
 import './HotelCards.styles.scss';
 
 export default function HotelCards(props) {
@@ -11,68 +11,66 @@ export default function HotelCards(props) {
     <section className='metaBlogCardSection container'>
       <div className='lt-grid-container'>
         <HotelCard
-          blogTitle='Courtyard Marriot'
+          blogTitle='Springhill Suites: San Diego Downtown/Bayfront'
           shortDescription={
             <>
-              2592 Laning Rd <br />
-              San Diego, CA 92106 <br />
-              (619) 221-1900
+              900 Bayfront Court<br />
+              San Diego, CA 92101 <br />
+              (619) 831-0224
             </>
           }
           internalorExternal='external'
           buttonText='Visit Website'
-          buttonLink='https://www.marriott.com/hotels/travel/sanal-courtyard-san-diego-airport-liberty-station'
-          imgSource={CourtyardMarriot}
+          buttonLink='https://www.marriott.com/hotels/travel/sandh-springhill-suites-san-diego-downtown-bayfront/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_Mjc3MTM4NS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D'
+          imgSource={Bayfront}
           imgAlt='courtyard marriot'
           htmlDescription=''
         />
         <HotelCard
-          blogTitle='Homewood Suites By Hilton'
+          blogTitle='Residence Inn: San Diego Downtown/Bayfront'
           shortDescription={
             <>
-              2576 Laning Rd <br />
-              San Diego, CA 92106 <br />
-              (619) 222-0500
+              900 Bayfront Court<br />
+              San Diego, CA 92101 <br />
+              (619) 831-0225
             </>
           }
           internalorExternal='external'
           buttonText='Visit Website'
-          buttonLink='https://homewoodsuites3.hilton.com/en/hotels/california/homewood-suites-by-hilton-san-diego-airport-liberty-station-SANLSHW/index.html'
-          imgSource={Homewood}
+          buttonLink='https://www.marriott.com/hotels/travel/sanrh-residence-inn-san-diego-downtown-bayfront/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_MjgyNjc4MS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D'
+          imgSource={ResidenceInn}
           imgAlt='courtyard marriot'
           htmlDescription=''
         />
         <HotelCard
-          blogTitle='Hampton Inn & Suites By Hilton'
+          blogTitle='InterContinental Hotel & Resorts'
           shortDescription={
             <>
-              2211 Lee C <br />
-              San Diego 92101 <br />
-              (619) 222-0500
+              901 Bayfront Court<br />
+              San Diego, CA 92101 <br />
+              (888) 424-6835
             </>
           }
           internalorExternal='external'
           buttonText='Visit Website'
-          buttonLink='https://hamptoninn3.hilton.com/en/hotels/california/hampton-inn-and-suites-san-diego-airport-liberty-station-SANLBHX/index.html'
-          imgSource={Hampton}
+          buttonLink='https://www.ihg.com/intercontinental/hotels/us/en/san-diego/sanhb/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-US-_-SANHB'
+          imgSource={Intercontinental}
           imgAlt='courtyard marriot'
           htmlDescription=''
         />
         <HotelCard
-          blogTitle='TownePlace Suites San Diego Airport/Liberty Station'
+          blogTitle='Wyndham San Diego Bayside'
           shortDescription={
             <>
-              2311 Lee Court
-              <br />
-              San Diego 92101
-              <br />
-              (619) 881-4100
+              1355 North Harbor Drive<br />
+              San Diego, CA 92101 <br />
+              (619) 232-3861
             </>
           }
           internalorExternal='external'
           buttonText='Visit Website'
-          buttonLink='https://www.marriott.com/hotels/travel/santa-towneplace-suites-san-diego-airport-liberty-station/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2'
-          imgSource={Marriot}
+          buttonLink='https://www.wyndhamhotels.com/wyndham/san-diego-california/wyndham-san-diego-bayside/overview?CID=LC:HR::GGL:RIO:National:47150&iata=00093796'
+          imgSource={Wyndham}
           imgAlt='courtyard marriot'
           htmlDescription=''
         />
