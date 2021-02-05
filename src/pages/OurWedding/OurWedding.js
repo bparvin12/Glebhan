@@ -30,8 +30,8 @@ class OurWedding extends Component {
                     </div>
                 }
                 body={''}
-                buttonUrl='/guest-accommodations'
-                buttonText="Guest Accommodations"
+                buttonUrl='/rsvp'
+                buttonText="RSVP Here"
             />
             </section>
         )

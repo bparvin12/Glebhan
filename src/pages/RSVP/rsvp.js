@@ -12,20 +12,25 @@ class RSVP extends Component {
             <h2 className='alertOurWedding'>Siobhan & Glenn</h2>
             <br></br>
             <div className='alertDetailsOurWedding'>
-              Friday August 6<sup>th</sup>, 2021<br />
+              Friday August 6<sup>th</sup>, 2021
+              <br />
               Half After Four O'Clock In The Afternoon
+              <br></br>
+              <br></br>
+              <strong>Please, kindly let us know if you will be able to celebrate with
+              us!</strong>
+              <br /><br />
             </div>
-            <br></br>
-            <br></br>
+
             <div className='alertDetailsOurWedding'>
               <CustomButton>
                 <a
                   href='https://glebhan2020.app.rsvpify.com/'
-                  rel="noreferrer noopener"
-                  target="_blank"
-                  style={{ textDecoration: 'inherit', color: 'inherit' }}
-                >
-                  RSVP<BsArrowRight className="arrowIcon" />
+                  rel='noreferrer noopener'
+                  target='_blank'
+                  style={{ textDecoration: 'inherit', color: 'inherit' }}>
+                  RSVP
+                  <BsArrowRight className='arrowIcon' />
                 </a>
               </CustomButton>
             </div>
