@@ -1,9 +1,9 @@
 import React from 'react';
 import HotelCard from './HotelCard';
 import Wyndham from '../../pictures/wyndham.png';
-import Bayfront from '../../pictures/bayfront.jpg';
-import ResidenceInn from '../../pictures/residenceinn.jpg';
-import Intercontinental from '../../pictures/intercontinental.jpeg';
+import Bayfront from '../../pictures/bayfront.png';
+import ResidenceInn from '../../pictures/residenceinn.png';
+import Intercontinental from '../../pictures/intercontinental.png';
 import './HotelCards.styles.scss';
 
 export default function HotelCards(props) {
