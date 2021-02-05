@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "74a27e25393168f22669",
+    "revision": "5fa94c159966a8dee8fc",
     "url": "/static/css/main.151b086b.chunk.css"
   },
   {
-    "revision": "74a27e25393168f22669",
-    "url": "/static/js/main.3cc96da0.chunk.js"
+    "revision": "5fa94c159966a8dee8fc",
+    "url": "/static/js/main.8c297dad.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -28,20 +28,20 @@ self.__precacheManifest = [
     "url": "/static/media/newCover.7c704da4.png"
   },
   {
-    "revision": "a7675346eafaaaa183d1d82fb3af311c",
-    "url": "/static/media/courtyardMarriot.a7675346.png"
+    "revision": "a18f78b7530aa55fd4b55f64130efd1e",
+    "url": "/static/media/wyndham.a18f78b7.png"
   },
   {
-    "revision": "87e7f0ea5a92a9fc005eef564f1f2df1",
-    "url": "/static/media/homewood.87e7f0ea.png"
+    "revision": "7f40689a369ebdc56cdd15e8b3fe50d0",
+    "url": "/static/media/bayfront.7f40689a.jpg"
   },
   {
-    "revision": "ecb94b24dcfc70597b51693b4c7b5291",
-    "url": "/static/media/hampton.ecb94b24.png"
+    "revision": "7d01fe5382139a5fb90a1c86a757bf39",
+    "url": "/static/media/residenceinn.7d01fe53.jpg"
   },
   {
-    "revision": "c8df7c1da5e3d668e81a6659fed40d59",
-    "url": "/static/media/marriot.c8df7c1d.png"
+    "revision": "965d9f6eac5e2153ffcccbec39270714",
+    "url": "/static/media/intercontinental.965d9f6e.jpeg"
   },
   {
     "revision": "b6309a9c8da92001eaea793f7e7214e5",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/static/media/bedbathandbeyond.3ac9d3c3.png"
   },
   {
-    "revision": "c3f864e376ff712887b5028e3bd53846",
+    "revision": "3181e0746cee66adad9a770898c47deb",
     "url": "/index.html"
   }
 ];
