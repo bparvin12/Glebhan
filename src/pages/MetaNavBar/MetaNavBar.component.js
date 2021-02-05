@@ -92,13 +92,13 @@ export default function MetaNavBar() {
                 Registry
               </NavLink>
             </li>
-            {/* <li className='nav-item' data-toggle='collapse' data-target='#navbarSupportedContent'>
+            <li className='nav-item' data-toggle='collapse' data-target='#navbarSupportedContent'>
               <NavLink
                 className='nav-link'
                 to='/rsvp'>
                 RSVP
               </NavLink>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>

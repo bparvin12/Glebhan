@@ -9,7 +9,8 @@ import Photos from "./pages/Photos"
 import OurWedding from './pages/OurWedding'
 import MetaNavBar from './pages/MetaNavBar/MetaNavBar.component';
 import Registry from './pages/Registry'
-// import RSVP from './pages/RSVP/rsvp';
+import RSVP from './pages/RSVP/rsvp';
+import Footer from './pages/Footer';
 
 class App extends Component {
   render() {
@@ -23,8 +24,9 @@ class App extends Component {
             <Route exact path="/photos" component={Photos} />
             <Route exact path="/guest-accommodations" component={GuestAccommodations} />
             <Route exact path="/registry" component={Registry} />
-            {/* <Route exact path="/rsvp" component={RSVP} /> */}
+            <Route exact path="/rsvp" component={RSVP} />
           </Switch>
+        <Footer />
       </Router>
 
     );
