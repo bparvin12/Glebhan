@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "5fa94c159966a8dee8fc",
-    "url": "/static/css/main.151b086b.chunk.css"
+    "revision": "c20564be03614d93aed6",
+    "url": "/static/css/main.26c99b97.chunk.css"
   },
   {
-    "revision": "5fa94c159966a8dee8fc",
-    "url": "/static/js/main.8c297dad.chunk.js"
+    "revision": "c20564be03614d93aed6",
+    "url": "/static/js/main.8042c616.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "dceb8ea0a66ed4daa53e",
+    "revision": "0b0340fcd11b6e1c468e",
     "url": "/static/css/2.91306b52.chunk.css"
   },
   {
-    "revision": "dceb8ea0a66ed4daa53e",
-    "url": "/static/js/2.e91b8ecd.chunk.js"
+    "revision": "0b0340fcd11b6e1c468e",
+    "url": "/static/js/2.06b86e79.chunk.js"
   },
   {
     "revision": "a162fd9beae0e17c0a239bec7cadf27d",
@@ -128,7 +128,11 @@ self.__precacheManifest = [
     "url": "/static/media/bedbathandbeyond.3ac9d3c3.png"
   },
   {
-    "revision": "3181e0746cee66adad9a770898c47deb",
+    "revision": "9b2f9cb7c69b97ac9eb02f4ab5f96085",
+    "url": "/static/media/sageBackgroundImage.9b2f9cb7.jpg"
+  },
+  {
+    "revision": "201484de2edb82f696d1648443987abe",
     "url": "/index.html"
   }
 ];
