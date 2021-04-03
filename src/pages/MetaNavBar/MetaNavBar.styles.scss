@@ -34,6 +34,16 @@
         border-bottom: 1px solid var(--metaGreen);
       }
     }
+    .covid-19 {
+      color: #fffaf0;
+      cursor: pointer;
+      &:hover,
+      &:active,
+      &:focus {
+        color: #fffaf0;
+        border-bottom: 1px solid var(--metaGreen);
+      }
+    }
   }
 }
 

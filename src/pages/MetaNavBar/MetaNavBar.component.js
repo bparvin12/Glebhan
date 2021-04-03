@@ -1,10 +1,12 @@
-import React, { useEffect, useReducer } from 'react';
+import React, { useEffect, useReducer, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import ModalDisplay from '../../components/Modal';
 import './MetaNavBar.styles.scss';
 
 const reducer = (state, nextState) => ({ ...state, ...nextState });
 
 export default function MetaNavBar() {
+  const [showModal, setShowModal] = useState(false);
   const [state, setState] = useReducer(reducer, {
     isScrolling: false,
     thePosition: 0,
@@ -99,9 +101,22 @@ export default function MetaNavBar() {
                 RSVP
               </NavLink>
             </li>
+            <li className='nav-item' data-toggle='collapse' data-target='#navbarSupportedContent'>
+              <span
+                className='nav-link covid-19'
+                onClick={() => setShowModal(true)}
+                >
+                Covid-19
+              </span>
+              <ModalDisplay 
+                show={showModal}
+                onHide={() => setShowModal(false)}
+              />
+            </li>
           </ul>
         </div>
       </div>
+
     </section>
   );
 }

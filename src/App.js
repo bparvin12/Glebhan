@@ -11,6 +11,7 @@ import MetaNavBar from './pages/MetaNavBar/MetaNavBar.component';
 import Registry from './pages/Registry'
 import RSVP from './pages/RSVP/rsvp';
 import Footer from './pages/Footer';
+// import Covid from './pages/Covid';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
             <Route exact path="/guest-accommodations" component={GuestAccommodations} />
             <Route exact path="/registry" component={Registry} />
             <Route exact path="/rsvp" component={RSVP} />
+            {/* <Route exact path="/covid-19" component={Covid} /> */}
           </Switch>
         <Footer />
       </Router>
