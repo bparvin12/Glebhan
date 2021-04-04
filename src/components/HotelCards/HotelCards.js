@@ -13,12 +13,23 @@ export default function HotelCards(props) {
         <HotelCard
           blogTitle='Springhill Suites: San Diego Downtown/Bayfront'
           shortDescription={
-            <>
+            <div>
               900 Bayfront Court<br />
               San Diego, CA 92101 <br />
               (619) 831-0224
-            </>
+              <fieldset className="offer-card">
+                <legend>Special Offers</legend>
+                <div className="info">
+                ** <strong>50% Off</strong> Rooms for Government, Police, and Military
+                <br />
+                - OR - 
+                <br />
+                ** Use Code <strong>T4450</strong> for <strong>10% Off</strong>
+                </div>
+              </fieldset>
+            </div>
           }
+          venue
           internalorExternal='external'
           buttonText='Visit Website'
           buttonLink='https://www.marriott.com/hotels/travel/sandh-springhill-suites-san-diego-downtown-bayfront/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_Mjc3MTM4NS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D'

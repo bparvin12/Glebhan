@@ -5,7 +5,7 @@ export const StyledModal = styled(Modal)`
   background-color: transparent;
   padding: 0;
   margin: 0;
-  height: 100vh;
+  height: 100%;
   border-radius: 0;
   min-width: unset;
   max-width: unset;
@@ -73,11 +73,6 @@ export const StyledModal = styled(Modal)`
       button {
         right: 20px;
         color: var(--white);
-      }
-    }
-    .modal-body {
-      min-height: 100%;
-      .covid-writing {
       }
     }
     border-radius: 0;
